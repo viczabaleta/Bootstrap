@@ -3,9 +3,6 @@
     background-color: #c4c4c4;
   }
 
-.inicio-info {
-      background-color:cadetblue;  
-    }
 
 .footer-black {
     background-color: black;
@@ -28,20 +25,16 @@
     padding: 0 20px;
 }
 
-.main-flexcontainer {
+/* .main-flexcontainer {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: row-reverse;
-}
+} */
 
 .pd-info {
-    background-color: cadetblue;
-    padding: 90px 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: 100vh;
+   
 }
 
 .pd-info p {
@@ -54,13 +47,10 @@
     color: black;
 }
 
-.ps-info {
+.ps-info, .ubicacion, .pedidos-form, .pd-info, .inicio-info {
     background-color: cadetblue;
-    padding: 90px 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 70px;
+    
 }
 
 .food-cards {
@@ -68,5 +58,39 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+} 
+
+.form-select {
+    width: auto;
+    height: auto;
 }
+
+.pedidos-form {
+    padding: 30px;
+}
+
+.btn {
+    border: none;
+}
+
+.btn-light{
+    background-color: cadetblue;
+}
+
+.sucursales {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sucursales .card {
+    margin-bottom: 20px;
+}
+
+.sucursales .card img {
+    margin-top: 10px;
+}
+
+
+
 
