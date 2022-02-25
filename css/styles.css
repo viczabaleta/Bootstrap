@@ -1,0 +1,72 @@
+.carousel-inner{
+    height: 500;
+    background-color: #c4c4c4;
+  }
+
+.inicio-info {
+      background-color:cadetblue;  
+    }
+
+.footer-black {
+    background-color: black;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.footer-black div {
+    color: white;
+}
+
+.footer-black div a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.main-flexcontainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.pd-info {
+    background-color: cadetblue;
+    padding: 90px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pd-info p {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.ps-info {
+    background-color: cadetblue;
+    padding: 90px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+

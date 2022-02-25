@@ -20,7 +20,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html"><img class="nav-logo" src="images/LOGO.png"
+                <a class="navbar-brand" href="../index.html"><img class="nav-logo" src="../images/LOGO.png"
                         alt="Foodie logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -38,8 +38,8 @@
                                 Productos
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/pages/productos_d.html">Dulces</a></li>
-                                <li><a class="dropdown-item" href="/pages/productos_s.html">Salados</a></li>
+                                <li><a class="dropdown-item" href="../pages/productos_d.html">Dulces</a></li>
+                                <li><a class="dropdown-item" href="../pages/productos_s.html">Salados</a></li>
                                 <!-- <li>
                                     <hr class="dropdown-divider">
                                 </li> -->
@@ -47,10 +47,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/ubicacion.html">Ubicación</a>
+                            <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/pedidos.html">Pedidos</a>
+                            <a class="nav-link" href="../pages/pedidos.html">Pedidos</a>
                         </li>
                     </ul>
 
@@ -59,9 +59,9 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main-flexcontainer">
         <!--  -----------------carousel---------------- -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide col-4" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -72,13 +72,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active ">
-                    <img src="/images/store1.jpg" class="d-block w-100" alt="img1">
+                    <img src="../images/sweet1.jpg" class="d-block w-100" alt="img1">
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/store2.jpg" class="d-block w-100" alt="img1">
+                    <img src="../images/sweet2.jpg" class="d-block w-100" alt="img1">
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/store3.jpg" class="d-block w-100" alt="img1">
+                    <img src="../images/sweet3.jpg" class="d-block w-100" alt="img1">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -94,12 +94,25 @@
         </div>
         <!-- ------------------fin carousel------- -->
 
-        <div class="inicio-info">
-            <h1>Healthy Food</h1>
+        <div class="pd-info col-8">
+            <h1>Sweet</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda voluptate? Sint quasi architecto, totam, deleniti vitae accusamus, eos minima quaerat veniam numquam repellendus odit.
-                Blanditiis in ducimus, quos ipsa nulla tenetur accusamus deleniti explicabo eaque voluptates maxime nihil quibusdam quia quod. Molestiae error incidunt commodi nemo magnam explicabo nulla?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda voluptate? Sint quasi
+                architecto, totam, deleniti vitae accusamus, eos minima quaerat veniam numquam repellendus odit.
+                Blanditiis in ducimus, quos ipsa nulla tenetur accusamus deleniti explicabo eaque voluptates maxime
+                nihil quibusdam quia quod. Molestiae error incidunt commodi nemo magnam explicabo nulla?
             </p>
+            <div class="recetas card" style="width: 18rem;">
+                <div class="card-header">
+                    Recetas
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="#">Tacita</a> </li>
+                    <li class="list-group-item"><a href="#">Torta helada</a></li>
+                    <li class="list-group-item"><a href="#">Volcán</a></li>
+                </ul>
+
+            </div>
         </div>
 
 
